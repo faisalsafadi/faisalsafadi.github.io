@@ -1137,9 +1137,10 @@
     left: 0;
     right: 0;
     background-size: inherit;
-    background-position: inherit;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     }
 .bt_bb_section .bt_bb_section_top_section_coverage_image,
 .bt_bb_section .bt_bb_section_bottom_section_coverage_image {
