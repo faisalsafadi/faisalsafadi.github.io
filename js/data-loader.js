@@ -103,12 +103,12 @@
     if (!grid || !services.length) return;
 
     var cols = services.map(function (s) {
-      var img = s.image || 'images/default/service_default.jpg';
+      var img = s.image || 'https://faisalsafadi.github.io/images/default/service_default.jpg';
       return '<div class="bt_bb_column col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 bt_bb_vertical_align_top bt_bb_align_left bt_bb_padding_text_indent bt_bb_animation_fade_in animate bt_bb_style_hover_shadow">' +
         '<div class="bt_bb_column_content" style="background-color:rgba(255,255,255,1);margin: 10px;">' +
         '<div class="bt_bb_column_content_inner">' +
         '<div class="bt_bb_image bt_bb_shape_square" style="height:256px;overflow:hidden;">' +
-        '<span><img src="' + esc(img) + '" alt="' + esc(s.titre) + '" style="width:100%;height:256px;object-fit:cover;" onerror="this.src=\'images/default/service_default.jpg\'"></span>' +
+        '<span><img src="' + esc(img) + '" alt="' + esc(s.titre) + '" style="width:100%;height:256px;object-fit:cover;" onerror="this.src=\'https://faisalsafadi.github.io/images/default/service_default.jpg\'"></span>' +
         '</div>' +
         '<div class="bt_bb_separator bt_bb_border_style_none bt_bb_bottom_spacing_small"></div>' +
         '<header class="bt_bb_headline bt_bb_font_weight_medium bt_bb_dash_none bt_bb_superheadline bt_bb_size_medium bt_bb_align_inherit" style="padding:0 20px;">' +
