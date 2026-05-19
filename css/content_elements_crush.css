@@ -5572,6 +5572,9 @@ button.slick-arrow:focus {
     }
 .slick-list .slick-slide {
     background-size: cover;
+    background-position-x: center; 
+    background-position-y: bottom; 
+    background-position: bottom center;
     }
 .slick-dots {
     position: absolute;
