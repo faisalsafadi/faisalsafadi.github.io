@@ -180,7 +180,7 @@
     if (!container || !portfolio.length) return;
 
     container.innerHTML = portfolio.map(function (item) {
-      return '<div class="portfolio-item"><img src="' + esc(item.image) + '" alt="' + esc(item.titre) + '" onerror="this.src=\'images/default/inner_07-640x900.jpg\'"></div>';
+      return '<div class="portfolio-item"><img src="' + esc(item.image) + '" alt="' + esc(item.titre) + '" onerror="this.src=\'https://faisalsafadi.github.io/images/default/inner_07-640x900.jpg\'"></div>';
     }).join('');
   }
 
